@@ -11,6 +11,8 @@
     }
   ],
   "compilerOptions": {
+    "composite": true,
+    "declaration": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitReturns": true,
