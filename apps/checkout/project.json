@@ -19,7 +19,7 @@
         "assets": ["apps/checkout/src/favicon.ico", "apps/checkout/src/assets"],
         "styles": ["apps/checkout/src/styles.css"],
         "scripts": [],
-        "webpackConfig": "@nrwl/react/plugins/webpack"
+        "webpackConfig": "apps/checkout/webpack.config.js"
       },
       "configurations": {
         "development": {
@@ -50,7 +50,7 @@
       "options": {
         "buildTarget": "checkout:build",
         "hmr": true,
-        "port": 4201
+        "port": 4202
       },
       "configurations": {
         "development": {
@@ -75,6 +75,14 @@
       "options": {
         "jestConfig": "apps/checkout/jest.config.ts",
         "passWithNoTests": true
+      }
+    },
+    "serve-static": {
+      "executor": "@nrwl/react:module-federation-dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "checkout:build",
+        "port": 4202
       }
     }
   },

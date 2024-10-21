@@ -1,1 +1,1 @@
-export * from './lib/get-sesseion-storage';
+export * from './lib/get-session-storage';

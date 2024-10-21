@@ -4,4 +4,3 @@ export function getSessionStorage(key: any) {
   );
   return sessionStorageValue;
 }
-export default getSessionStorage;

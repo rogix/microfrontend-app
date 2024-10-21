@@ -19,5 +19,13 @@
     "**/*.spec.jsx",
     "**/*.test.jsx"
   ],
-  "include": ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"]
+  "include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "../../libs/ui/src/index.ts"
+  ]
 }
